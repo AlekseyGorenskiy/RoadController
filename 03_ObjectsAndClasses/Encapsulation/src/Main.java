@@ -10,5 +10,7 @@ public class Main {
 
 
         }
+
+        //System.out.println("Введите номер этажа");
     }
 }
