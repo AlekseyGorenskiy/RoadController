@@ -1,13 +1,24 @@
 public class Display {
-    private int diagonal;
-    private String typScreen;
-    private int weight;
+    private final int diagonal;
+    private final String typScreen;
+    private final int weight;
 
-    public String getTypScreen() {
-        return typScreen;
+    public Display(int diagonal,String typScreen, int weight){
+       this.diagonal=diagonal;
+       this.typScreen=typScreen;
+       this.weight=weight;
+   }
+
+    public int getWeight() {
+        return weight;
     }
 
-    public void setTypScreen(String typScreen) {
-        this.typScreen = typScreen;
+    @Override
+    public String toString() {
+        return "Display{" +
+                "diagonal=" + diagonal +
+                ", typScreen='" + typScreen + '\'' +
+                ", weight=" + weight +
+                '}';
     }
 }
