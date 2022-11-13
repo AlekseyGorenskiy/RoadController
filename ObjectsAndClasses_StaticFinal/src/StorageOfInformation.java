@@ -1,13 +1,14 @@
 public class StorageOfInformation {
-    private String typ;
-    private int memoryСapacity;
-    private double weight;
+    private final String typ;
+    private final int memoryСapacity;
+    private final double weight;
 
-    public int getMemoryСapacity() {
-        return memoryСapacity;
+    public StorageOfInformation(String typ,int memoryСapacity, double weight){
+        this.memoryСapacity=memoryСapacity;
+        this.typ=typ;
+        this.weight=weight;
     }
-
-    public void setMemoryСapacity(int memoryСapacity) {
-        this.memoryСapacity = memoryСapacity;
+    public double getWeight() {
+        return weight;
     }
 }
