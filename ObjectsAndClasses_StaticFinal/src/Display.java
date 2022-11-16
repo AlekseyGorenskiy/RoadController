@@ -12,13 +12,4 @@ public class Display {
     public int getWeight() {
         return weight;
     }
-
-    @Override
-    public String toString() {
-        return "Display{" +
-                "diagonal=" + diagonal +
-                ", typScreen='" + typScreen + '\'' +
-                ", weight=" + weight +
-                '}';
-    }
 }
