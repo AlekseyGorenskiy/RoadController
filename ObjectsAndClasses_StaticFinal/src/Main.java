@@ -3,7 +3,7 @@ public class Main {
 
         Processor processor1=new Processor(500,200,500);
         StorageOfInformation storageOfInformation1=new StorageOfInformation("SSD",200,200);
-        Keyboard keyboard1=new Keyboard("ппп",23,"22");
+        Keyboard keyboard1=new Keyboard("ппп",23,"220");
         Display display1=new Display(32,"HDD",25);
         Ram ram1=new Ram("DDR",256,200);
 
